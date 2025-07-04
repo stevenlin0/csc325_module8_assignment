@@ -7,8 +7,8 @@ public class MainClass {
 		Scanner scanner = new Scanner(System.in);
 
 		// This is to create a Freshman and a Senior student
-		Freshman std1 = new Freshman("Leo", (short) 20, 12);
-		Senior std2 = new Senior("Steven", (short) 30, 90);
+		Freshman std1 = new Freshman("Leo", (short) 18, 12);
+		Senior std2 = new Senior("Steven", (short) 20, 90);
 
 		// This is to ask user to enter GPA for the freshman
 		System.out.print("Enter GPA for " + std1.getName() + ": ");
